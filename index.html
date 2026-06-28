@@ -242,6 +242,12 @@ section{padding:160px 6%;position:relative;}
   font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--cyan);border:1px solid var(--line);
   padding:5px 10px;border-radius:2px;
 }
+.proj-link{
+  display:inline-block;margin-top:22px;font-family:'JetBrains Mono',monospace;font-size:12px;
+  color:var(--text);text-decoration:none;letter-spacing:1px;border-bottom:1px solid var(--cyan);
+  padding-bottom:4px;position:relative;z-index:1;
+}
+.proj-link:hover{color:var(--cyan);}
 @media (max-width:800px){.proj-grid,.about-grid,.skills-wrap{grid-template-columns:1fr;}}
 
 /* ---------- timeline ---------- */
@@ -303,24 +309,24 @@ footer span{color:var(--cyan);}
       <li><a href="#work">Work</a></li>
       <li><a href="#path">Journey</a></li>
     </ul>
-    <a href="https://wa.me/923394050629" target="_blank" class="nav-cta">Let's Talk</a>
+    <a href="https://wa.me/923394050629" target="_blank" rel="noopener" class="nav-cta">Let's Talk</a>
   </nav>
 
   <section class="hero">
-    <div class="eyebrow">Web Designer · Developer · SEO Specialist</div>
+    <div class="eyebrow">Web Designer · Front-End Developer</div>
     <h1>
       <span class="glitch-wrap"><span class="glitch" data-text="AYAN">AYAN</span></span><br>
       <span class="glitch-wrap"><span class="glitch" data-text="KHALID">KHALID</span></span>
     </h1>
     <p class="hero-sub">
-      I design and build <strong>fast, search-ready websites</strong> that look like they're from
-      the future. <strong>1.5 years</strong> turning pixels into performance — blending interface
-      design, front-end code, and SEO strategy into one craft.
+      I design and build <strong>fast, responsive websites</strong> that look sharp and work in
+      the real world. <strong>1.5 years</strong> turning layouts into live sites — blending interface
+      design, front-end code, and deployment into one craft.
     </p>
     <div class="hero-tags">
       <span class="tag">UI / UX DESIGN</span>
       <span class="tag">FRONT-END DEV</span>
-      <span class="tag">TECHNICAL SEO</span>
+      <span class="tag">LIVE WEBSITES</span>
       <span class="tag">PERFORMANCE</span>
     </div>
     <div class="hero-scroll"><div class="line"></div>SCROLL</div>
@@ -335,21 +341,18 @@ footer span{color:var(--cyan);}
       <div class="about-panel reveal">
         <h3>SNAPSHOT</h3>
         <div class="stat-row"><span>Experience</span><span>1.5 Years</span></div>
-        <div class="stat-row"><span>Focus</span><span>Design + Dev + SEO</span></div>
-        <div class="stat-row"><span>Projects Shipped</span><span>20+</span></div>
-        <div class="stat-row"><span>Avg. Lighthouse Score</span><span>96/100</span></div>
+        <div class="stat-row"><span>Focus</span><span>Design + Front-End Dev</span></div>
+        <div class="stat-row"><span>Live Websites</span><span>2</span></div>
+        <div class="stat-row"><span>Work Type</span><span>Code + Launch</span></div>
         <div class="stat-row"><span>Based In</span><span>Remote / Worldwide</span></div>
       </div>
       <div class="about-text reveal">
         <p>I'm a <strong>web designer and developer</strong> who treats every project like a small
         product launch — not just "a website." Over the last <mark>1.5 years</mark> I've designed
-        interfaces, coded them into fast real-world builds, and made sure they actually
-        <strong>rank and get found</strong> on Google.</p>
-        <p>My process sits at the intersection of three skill sets that most people split across
-        three different freelancers: <strong>visual design</strong> that feels intentional, not templated;
-        <strong>clean front-end code</strong> that loads fast and scales; and <strong>SEO fundamentals</strong>
-        baked in from day one — semantic structure, Core Web Vitals, metadata, the unglamorous stuff
-        that decides whether anyone ever sees the design at all.</p>
+        interfaces and coded them into fast real-world builds that are live on the web.</p>
+        <p>My process sits at the intersection of two practical skills: <strong>visual design</strong>
+        that feels intentional, not templated; and <strong>clean front-end code</strong> that loads
+        fast, adapts to mobile screens, and is simple enough to maintain after launch.</p>
         <p>I like interfaces with a bit of <strong>edge</strong> — motion, depth, atmosphere — but only
         when it serves the content. This page is me showing off a little. Most client work is calmer.</p>
       </div>
@@ -366,18 +369,18 @@ footer span{color:var(--cyan);}
         <div class="orbit-ring ring-1"></div>
         <div class="orbit-ring ring-2"></div>
         <div class="orbit-ring ring-3"></div>
-        <div class="orbit-core">FULL<br>STACK<br>CRAFT</div>
+        <div class="orbit-core">FRONT<br>END<br>CRAFT</div>
         <div class="orbit-node" style="top:0;left:50%;transform-origin:0 230px;">HTML/CSS</div>
         <div class="orbit-node" style="top:50%;left:100%;transform-origin:-230px 0;">JavaScript</div>
-        <div class="orbit-node" style="top:100%;left:50%;transform-origin:0 -230px;">SEO Audit</div>
+        <div class="orbit-node" style="top:100%;left:50%;transform-origin:0 -230px;">Live Sites</div>
         <div class="orbit-node" style="top:50%;left:0;transform-origin:230px 0;">Figma</div>
       </div>
       <div class="skill-list reveal">
         <div class="skill-item"><div class="top"><b>UI / Web Design</b><span>92%</span></div><div class="bar"><i style="width:92%"></i></div></div>
         <div class="skill-item"><div class="top"><b>HTML / CSS / JS</b><span>88%</span></div><div class="bar"><i style="width:88%"></i></div></div>
         <div class="skill-item"><div class="top"><b>Responsive / Mobile-first</b><span>90%</span></div><div class="bar"><i style="width:90%"></i></div></div>
-        <div class="skill-item"><div class="top"><b>Technical SEO</b><span>85%</span></div><div class="bar"><i style="width:85%"></i></div></div>
-        <div class="skill-item"><div class="top"><b>On-page / Content SEO</b><span>83%</span></div><div class="bar"><i style="width:83%"></i></div></div>
+        <div class="skill-item"><div class="top"><b>Website Deployment</b><span>82%</span></div><div class="bar"><i style="width:82%"></i></div></div>
+        <div class="skill-item"><div class="top"><b>Domain / Hosting Setup</b><span>78%</span></div><div class="bar"><i style="width:78%"></i></div></div>
         <div class="skill-item"><div class="top"><b>Performance Optimization</b><span>80%</span></div><div class="bar"><i style="width:80%"></i></div></div>
       </div>
     </div>
@@ -391,27 +394,17 @@ footer span{color:var(--cyan);}
     <div class="proj-grid">
       <div class="proj-card reveal">
         <span class="proj-no">PROJECT 01</span>
-        <h3>Nova Retail — E-commerce Rebuild</h3>
-        <p>Redesigned and rebuilt a mid-size storefront, restructured site architecture for crawlability, and cut load time by 58%. Organic traffic up 140% in 3 months.</p>
-        <div class="proj-meta"><span>Design</span><span>Shopify</span><span>SEO</span></div>
+        <h3>Eurobit Online — Company Website</h3>
+        <p>Designed, coded, and launched a live business website for Eurobit with a clean industrial look, responsive sections, service content, and contact flow.</p>
+        <div class="proj-meta"><span>Design</span><span>Front-End Code</span><span>Live Website</span></div>
+        <a class="proj-link" href="https://eurobit.online" target="_blank" rel="noopener">Visit live site</a>
       </div>
       <div class="proj-card reveal">
         <span class="proj-no">PROJECT 02</span>
-        <h3>Lumen Studio — Portfolio Site</h3>
-        <p>Built a motion-driven portfolio for a photography studio with custom image-loading strategy, structured data, and a 98 mobile Lighthouse score.</p>
-        <div class="proj-meta"><span>Webflow</span><span>Animation</span><span>Performance</span></div>
-      </div>
-      <div class="proj-card reveal">
-        <span class="proj-no">PROJECT 03</span>
-        <h3>Northbound — SaaS Landing Page</h3>
-        <p>Designed and coded a conversion-focused landing page from scratch, paired with on-page SEO and schema markup that doubled organic sign-ups.</p>
-        <div class="proj-meta"><span>UI Design</span><span>React</span><span>Conversion</span></div>
-      </div>
-      <div class="proj-card reveal">
-        <span class="proj-no">PROJECT 04</span>
-        <h3>Echo Blog Network — Content SEO</h3>
-        <p>Led a technical + content SEO overhaul across a 200-article blog: fixed crawl issues, restructured internal linking, rewrote metadata at scale.</p>
-        <div class="proj-meta"><span>Technical SEO</span><span>Content Strategy</span></div>
+        <h3>Bitumen 60/70 — Product Website</h3>
+        <p>Built and launched a focused website for Bitumen 60/70 with product-focused content, responsive layout, and a direct contact path for visitors.</p>
+        <div class="proj-meta"><span>Website Build</span><span>Responsive UI</span><span>Launch</span></div>
+        <a class="proj-link" href="https://bitumen6070.online" target="_blank" rel="noopener">Visit live site</a>
       </div>
     </div>
   </section>
@@ -434,13 +427,13 @@ footer span{color:var(--cyan);}
       </div>
       <div class="t-item reveal">
         <span class="t-date">MONTHS 12–18</span>
-        <h4>Added SEO to the Toolkit</h4>
-        <p>Started auditing and optimizing the sites I was building — technical SEO, on-page structure, Core Web Vitals — closing the loop between design and discoverability.</p>
+        <h4>Launched Real Websites</h4>
+        <p>Moved from practice builds into live websites, handling the design, code, domain setup, hosting setup, and final launch details.</p>
       </div>
       <div class="t-item reveal">
         <span class="t-date">NOW</span>
         <h4>1.5 Years In, Building This</h4>
-        <p>Taking on projects end-to-end: design, build, and make sure people can actually find them. Open to new freelance and full-time opportunities.</p>
+        <p>Taking on projects end-to-end: design, build, launch, and improve the site after it goes live. Open to new freelance and full-time opportunities.</p>
       </div>
     </div>
   </section>
@@ -448,10 +441,10 @@ footer span{color:var(--cyan);}
   <section id="contact">
     <div class="contact-box reveal">
       <h2>Let's Build<br>Something Fast.</h2>
-      <p>Have a site that needs a redesign, a rebuild, or just needs to rank? I'm currently open to freelance work and full-time roles.</p>
+      <p>Have a site that needs a redesign, a rebuild, or a clean first launch? I'm currently open to freelance work and full-time roles.</p>
       <a href="mailto:ayankhaild000@icloud.com" class="contact-email">ayankhaild000@icloud.com</a>
       <div class="social-row">
-        <a href="https://wa.me/923394050629" target="_blank">WhatsApp</a>
+        <a href="https://wa.me/923394050629" target="_blank" rel="noopener">WhatsApp</a>
         <a href="#">LinkedIn</a>
         <a href="#">GitHub</a>
         <a href="#">Resume ↓</a>
